@@ -58,7 +58,7 @@ console.log(replaceEvens(given_arr))
 // # Notes:
 // # the length of the list of children will always be greater than one.
 
-
+kid_candy = [5,8,6,4]
 
 function candies(kid_candy) {
     let the_max = Math.max(...kid_candy);
@@ -68,4 +68,5 @@ function candies(kid_candy) {
     }
     return sum;
   }
+  candies(kid_candy)
   
